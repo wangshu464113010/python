@@ -44,7 +44,7 @@ print(1 in numbers)
 print(len(l))
 print(max(numbers))
 print(min(numbers))
-# 列表
+# 列表 ##############################
 print("列表list")
 # 函数list
 print(list('Hello'))  # ['H', 'e', 'l', 'l', 'o']
@@ -65,6 +65,44 @@ print(updateList)
 # 利用空切片删除多个元素
 updateList[1:5] = []  # 此行代码等价于 del updateList[1:5]
 print(updateList)
+# 列表中的方法
+# append(),clear(),copy(),count(),extend(),index(),
+# 在尾添加，清空，复制，统计某一值得个数，扩展，获取某一值得索引
+# insert(),pop(),remove(),reverse(),sort()
+# 在指定位置插入，删除最后一个元素，删除指定值得元素(只删除第一个)，反转，排序
+# !!!没有push()方法
+methodListLearn = [1, 2, 3, 4, 5, 1, 1]
+methodListLearn.append(1)
+print(methodListLearn.index(1))
+print(methodListLearn.count(1))
+# 元组 不可修改的序列#####################################
+print("元组tuple")
+yuanZu = (1, 2, 3)
+# 空元组的 ()，若元组只有一个值，必须在其后面加一个逗号(原因:(1) = 1,此时不再是元组，而是一个数)
+OneElementTuple = (1,)
+# 函数tuple工作原理与list类似,将一个序列转换成元组
+print(tuple([1, 2, 3]))
+print(tuple('Hello World'))
+# 元组的访问
+print(yuanZu[0])
+# 序列的函数
+# len(seq),list(seq),max(seq),min(seq),
+# reversed(seq)【可以使用该方法反向迭代序列】,
+# sorted(seq)【返回一个有序表】,tuple(seq)
+print("字符串")
+# 字符串  序列的标准操作都是适用于字符串######################
+# （索引、切片、乘法、成员资格检查、长度、最小值和最大值）
+# 由于字符串不可变，故给字符串赋值和切片赋值是非法的
+# website = 'http://www.python.org'
+# website[-3:] = 'com'  # 此两行代码非法
+
+# 格式化输出
+values = "World"
+print("Hello %s" % values)
+values1 = ('Hello', 'World')
+print("Tom ,%s,%s"% values1)
+
+
 
 
 
