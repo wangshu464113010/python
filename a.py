@@ -1,4 +1,3 @@
-
 # UNIX系统中的运行命令
 #  python hello.py
 
@@ -20,8 +19,8 @@ print("str = \n" + str("Hello\nWorld"))  # 结果如下
 print("repr = " + repr("Hello\nWord"))  # 'Hello\nWord'
 # 长字符串,续接符  \
 defg = "1" + "2" + \
-    "4 + 5"
-print("defg = "+defg)
+       "4 + 5"
+print("defg = " + defg)
 # 原始字符串
 print(r'C:\nProgram Files\python\project')
 print(r'C:\nProgram Files\python\project' '\\')
@@ -38,10 +37,10 @@ del c
 # 数和表达式
 # 四则运算 / * - + %
 # 浮点数的四则运算(整除) //
-print(10/2.4)    # 4.166666666666667
-print(10.0//2.4)  # 4.0
+print(10 / 2.4)  # 4.166666666666667
+print(10.0 // 2.4)  # 4.0
 # 乘方(幂) **
-print(2**3)
+print(2 ** 3)
 # 进制 0x(16) 0(8) 0b(2)
 
 # Unicode编码
@@ -52,3 +51,6 @@ print("Hællå, wørld!".encode())
 # 获取用户的输入
 x = input("The meaning of file:")
 print(x)
+"""
+三个单引号或者三个双引号就是多行注释
+"""

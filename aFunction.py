@@ -2,6 +2,7 @@
 import math  # math默认引入了
 from math import sqrt  # 导入函数
 import cmath
+
 # 数学函数
 print("---------math function---------")
 print("pow(10, 2) = " + str(pow(10, 2)))  # 乘方函数
@@ -14,13 +15,10 @@ print("math.ceil(32.3) = " + str(math.ceil(32.3)))  # 取整  往正无穷方向
 print("sqrt(1) = " + str(sqrt(1)))  # 开方
 # cmath和复数
 print("cmath.sqrt(-1) = " + str(cmath.sqrt(-1)))  # 1j
-print("(1+3j)+(2+4j) = " + str((1+3j)+(2+4j)))  # 复数支持
+print("(1+3j)+(2+4j) = " + str((1 + 3j) + (2 + 4j)))  # 复数支持
 
 print("---------强转---------")
 # 强转 不是函数
 print(int(12.3))
 print(float(10))
 print(str(123456))
-
-
-
