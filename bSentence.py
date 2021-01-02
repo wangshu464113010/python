@@ -17,7 +17,7 @@ print(foobar.sqrt(9))
 print('Hello,', 'Gumby', 'Mr.')
 # 上述分割符默认是空格,指定需要添加参数sep
 print('I', 'wish', 'to', 'register', 'a', 'complaint', sep='_')
-# 复制魔法
+# 赋值魔法
 # 序列解包(可迭代对象解包) 可以同时(并行)给多个变量复制
 x, y, z = 1, 2, 3
 print(x, y, z)  # 1 2 3
@@ -133,7 +133,7 @@ print(squares)
 # 首先是数据格式+空格+类似for循环的东西(也不知道应不应该称之为语句)(表达式？)
 
 # 三人行，另外三条语句：pass，del，exec
-# pass 什么都不做，可以使用占位符，但是感觉没什么用
+# pass 什么都不 做，可以使用占位符，但是感觉没什么用
 pass
 # del删除，前面已讲
 # exec会将字符串作为代码执行，还有一个eval函数类似
