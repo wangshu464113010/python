@@ -1,0 +1,6 @@
+dSetuptools.py
+zhello.py
+zhello.egg-info/PKG-INFO
+zhello.egg-info/SOURCES.txt
+zhello.egg-info/dependency_links.txt
+zhello.egg-info/top_level.txt
